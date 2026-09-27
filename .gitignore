@@ -1,0 +1,40 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Caches y cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Variables de entorno locales
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.swp
+*~
+
+# Configuracion local de editores y sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
